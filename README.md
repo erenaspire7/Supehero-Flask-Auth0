@@ -1,6 +1,14 @@
 # Flask_Auth_App
 This repository contains the code of a Supehero based website with authentication
 
+Last step is to build the image. Run the following command locally:
+
+```
+docker build -t bulma-xyz .
+```
+
+We should ensure we run this command in the location of `Dockerfile`. In order to check the newly created image, run this command
+
 ## Prerequisites
 - virtualenv
 - Superhero [API Access Key](https://superheroapi.com/)
